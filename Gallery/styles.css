@@ -1,3 +1,7 @@
+*
+{
+    margin: 0px;
+}
 .conatiner
 {
     display: flex;
@@ -12,6 +16,8 @@ h1
     width: 400px;
     text-align: center;
     border-right: 2px solid black;
+    box-shadow: 4px 4px 5px gray;
+    margin-top: 10px;
 }
 img
 {
