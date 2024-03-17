@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 h1
 {
@@ -18,15 +19,26 @@ h1
     border-right: 2px solid black;
     box-shadow: 4px 4px 5px gray;
     margin-top: 10px;
+    margin-left: 10px;
 }
 img
 {
     height: 300px;
     width: 450px;
-    margin: 10px;
+    margin: 25px;
     transition: all 1s;
 }
 img:hover
 {
     transform: scale(1.1);
+}
+.footer
+{
+    bottom: 0;
+    height: 40px;
+    background-color: rgb(179, 175, 175);
+    width: 98%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 4px 4px 5px black;
 }
